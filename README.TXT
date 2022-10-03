@@ -4,9 +4,9 @@ Informe ao usuário (alguém que não sabe nada sobre este projeto!) tudo que
 ele/ela precisa saber. Os comentários devem incluir, pelo menos:
 ------------------------------------------------------------------------
 
-TÍTULO DO PROJETO:
+TÍTULO DO PROJETO: Hangman
 OBJETIVO DO PROJETO:
-VERSÃO ou DATA:
+VERSÃO ou DATA: 03-10-22
 COMO INICIAR O PROJETO:
-AUTORES:
+AUTORES: gabriel.almeida98@edu.pucrs.br
 INSTRUÇÕES PARA O USUÁRIO:
