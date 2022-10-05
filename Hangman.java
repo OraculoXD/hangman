@@ -25,8 +25,21 @@ public class Hangman {
         return word;
     }
     
+    // returnCorrect("java", "____",'a') -> "_a_a"
+    // returnCorrect("java", "_a_a",'j') -> "ja_a"
     public static String returnCorret(String secret, String word, char guess) {
-        return "";
+        String nextWord = "";
+        int i = 0;
+        while (i < secret.length() ){
+            if (guess ==secret.length()){
+                nextWord = nextWord + word.charAt(i);
+            } else {
+                nextWord = nextWord + secret.charAt(i);
+            }
+            
+            i++;
+        }
+        return nextWord;
     }
     
     public static void main(String[] args) {
